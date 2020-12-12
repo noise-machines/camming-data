@@ -1,0 +1,14 @@
+{
+  "scripts": {},
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "standard": "^16.0.3",
+    "vercel": "^21.0.1"
+  },
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.8.1",
+    "micro": "^9.3.4"
+  }
+}
