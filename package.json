@@ -8,6 +8,7 @@
   "dependencies": {
     "airtable": "^0.10.1",
     "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
     "got": "^11.8.1",
     "micro": "^9.3.4"
   }

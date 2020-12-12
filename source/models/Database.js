@@ -1,8 +1,9 @@
+require('dotenv').config()
 const Airtable = require('airtable')
 
 const baseId = 'appkPHne3XZT5HzqQ'
 const tableName = 'Chaturbate Reports'
-const base = new Airtable({ apiKey: 'key0zV5moFSdVW8vN' }).base(baseId)
+const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(baseId)
 const table = base(tableName)
 
 module.exports.createChaturbateReport = async function (report) {
